@@ -1,0 +1,18 @@
+Start
+  Input student_score
+  If student_score >= 70 and student_score <= 100
+      grade = "A"
+  Else if student_score >= 60 and student_score <= 69
+      grade = "B"
+  Else if student_score >= 50 and student_score <= 59
+      grade = "C"
+  Else if student_score >= 45 and student_score <= 49
+      grade = "D"
+  Else if student_score >= 40 and student_score <= 44
+      grade = "E"
+  Else if student_score >= 0 and student_score < 40
+      grade = "F"
+  Else
+      grade = "Invalid Score"
+  Print "Grade:", grade
+End
